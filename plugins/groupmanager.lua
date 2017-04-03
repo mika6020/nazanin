@@ -3360,8 +3360,8 @@ patterns ={
 "^[#!/](unfilter) (.*)$",
 "^[#!/](filterlist)$",
 "^([https?://w]*.?t.me/joinchat/%S+)$",
-"^([https?://w]*.?telegram.me/joinchat/%S+)$",
+"^([https?://w]*.?telegram.me/joinchat/%S+)$"
 },
-run=run
+run=run,
 pre_process = pre_process
 }
